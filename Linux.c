@@ -42,3 +42,16 @@ if (i== 0){
     printf("Datos de texto guardados con exito.\n");
     return 0;
 }
+
+while ((i = getchar()) != '0'){
+    printf(" [1] Crear usuario \n");
+    printf(" [2] Listar todos los usuarios \n");
+    printf(" [4] Bloquear / desbloquear usuario \n");
+    printf(" [0] Eliminar usuario \n");
+}
+
+
+
+
+//Ochoa Pérez Enmanuel Ignacio 
+//Negrete Alvarado Daniel José
