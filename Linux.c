@@ -25,12 +25,38 @@
 
 
 
-while ((i = 0) == 5){
-    printf("[1] Crear usuario \n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+while ((i = getchar()) != '0'){
+    printf(" [1] Crear usuario \n");
     printf(" [2] Listar todos los usuarios \n");
     printf(" [4] Bloquear / desbloquear usuario \n");
-    printf(" [5] Eliminar usuario \n");
-    i++;
+    printf(" [0] Eliminar usuario \n");
 }
 
 
@@ -62,4 +88,4 @@ while ((i = 0) == 5){
 
 
 //Ochoa Pérez Enmanuel Ignacio 
-//Negrete Alvarado Daniel José 
+//Negrete Alvarado Daniel José
